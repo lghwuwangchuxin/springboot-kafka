@@ -53,13 +53,6 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
         </dependency>
-        <!-- ////////////////////druid 公共部分 //////////////////// -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>${druid.version}</version>
-        </dependency>
-
         <!-- ////////////////////fastjson 公共部分 //////////////////// -->
         <dependency>
             <groupId>com.alibaba</groupId>
