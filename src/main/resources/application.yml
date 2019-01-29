@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+    
+logback:
+  # 日志前缀
+  appName: springboot-kafka
+  # 日志后缀
+  fileType: log
+  
+info:
+  app:
+    name: "@project.artifactId@"
+    encoding: '@project.build.sourceEncoding@'
+    java:
+      source: '@java.version@'
+      target: '@java.version@'
+      user : '警圣'
